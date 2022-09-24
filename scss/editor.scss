@@ -17,12 +17,13 @@ https://github.com/S-codes14/smaller-sites
 */
 
 html {
-	font-size:14px;
+  font-size: 14px;
 }
 
-body
-{
-	font-family:"Helvetica Neue", Helvetica, -apple-system, Arial, "Lucida Grande", system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+body {
+  font-family: "Helvetica Neue", Helvetica, -apple-system, Arial,
+    "Lucida Grande", system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+    sans-serif;
 }
 
 //$form-select-indicator: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 2'%3E%3Cpath fill='%23aaa' d='M 2,2 0,0 h 4 z'/%3E%3C/svg%3E");
@@ -31,27 +32,25 @@ $form-select-indicator: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/20
 $form-select-bg-size: 10px 12px;
 $form-select-bg-position: right 0.7rem center;
 
-$input-btn-padding-y: .4rem;
-$input-btn-padding-x: .5rem;
-$custom-select-padding-y: .4rem;
+$input-btn-padding-y: 0.4rem;
+$input-btn-padding-x: 0.5rem;
+$custom-select-padding-y: 0.4rem;
 $light: #666565;
 
-#logo
-{
-	margin-left: 0.5rem;
-	margin-top: 0.15rem;
+#logo {
+  margin-left: 0.5rem;
+  margin-top: 0.15rem;
 }
 
 $input-height: default;
 
-$la-font-path: '../fonts/line-awesome';
-$la-css-prefix-lar: 'la';
-$la-css-prefix-las: 'la';
+$la-font-path: "../fonts/line-awesome";
+$la-css-prefix-lar: "la";
+$la-css-prefix-las: "la";
 
 i.la {
-	font-style:normal;
+  font-style: normal;
 }
-
 
 $link-decoration: none;
 $font-size-base: 1rem;
@@ -60,78 +59,70 @@ $font-size-base: 1rem;
 @import "bootstrap/bootstrap";
 @import "builder";
 
+.btn-icon {
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 0px;
+  padding: 0.5rem 2rem;
 
-.btn-icon
-{
-	font-weight:600;
-	text-transform:capitalize;
-	margin-bottom:0px;
-	padding:0.5rem 2rem;
-	
-	i:first-child
-	{
-		display: inline-block;
-		margin-right:0.3rem;
-		font-size: 21px;
-		opacity:0.7;
-	}
-	
-	&.btn-outline-primary
-	{
-		border-width:0px;
-		box-shadow:0px 0px 1px 0px #3478f2;
-		background-color:rgb(58, 57, 57);
+  i:first-child {
+    display: inline-block;
+    margin-right: 0.3rem;
+    font-size: 21px;
+    opacity: 0.7;
+  }
 
-		&:hover
-		{
-			color:$primary;
-			background:$gray-100;
-		}
-		
-		i {
-			//border-right:1px solid rgba(0,0,0, 0.1);
-			background:transparent;
-		}
-	}
-	
-	&.btn-outline-secondary
-	{
-	}
-	
-	&.btn-gray
-	{
-		i
-		{
-		}
-	}
-	
-	&.btn-secondary
-	{
-		box-shadow:-1px 1px 2px 1px rgba(0,0,0,0.07),-1px 1px 2px 0px rgba(255,255,255,0.15) inset;
+  &.btn-outline-primary {
+    border-width: 0px;
+    box-shadow: 0px 0px 1px 0px #3478f2;
+    background-color: rgb(58, 57, 57);
 
-		i
-		{
-			background: transparent;
-		}
-	}
+    &:hover {
+      color: $primary;
+      background: $gray-100;
+    }
 
-	&.btn-primary {
-		box-shadow:-1px 1px 2px 1px rgba(0,0,0,0.07),-1px 1px 2px 0px rgba(255,255,255,0.15) inset;
+    i {
+      //border-right:1px solid rgba(0,0,0, 0.1);
+      background: transparent;
+    }
+  }
 
-		i {
-			/*background: rgba(255,255,255, 0.1);*/
-		}
-	}
-	
-	&.btn-sm {
-		i {
-			padding: 0.5rem 0.5rem;
-		}
-	}
+  &.btn-outline-secondary {
+  }
+
+  &.btn-gray {
+    i {
+    }
+  }
+
+  &.btn-secondary {
+    box-shadow: -1px 1px 2px 1px rgba(0, 0, 0, 0.07),
+      -1px 1px 2px 0px rgba(255, 255, 255, 0.15) inset;
+
+    i {
+      background: transparent;
+    }
+  }
+
+  &.btn-primary {
+    box-shadow: -1px 1px 2px 1px rgba(0, 0, 0, 0.07),
+      -1px 1px 2px 0px rgba(255, 255, 255, 0.15) inset;
+
+    i {
+      /*background: rgba(255,255,255, 0.1);*/
+    }
+  }
+
+  &.btn-sm {
+    i {
+      padding: 0.5rem 0.5rem;
+    }
+  }
 }
 
 .alert-light {
-    color: #f0ecec;
-    background-color: rgb(53, 52, 52);
-    border-color: #5cf364;
+  color: #f0ecec;
+  background-color: rgb(53, 52, 52);
+  // border-color: #5cf364;
 }
