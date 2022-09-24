@@ -50,8 +50,8 @@ i.la, i.header-arrow {
   font-style: normal;
   font-weight: normal;
   font-display: auto;
-  src: url("../fonts/line-awesome/la-brands-400.eot");
-  src: url("../fonts/line-awesome/la-brands-400.eot?#iefix") format("embedded-opentype"), url("../fonts/line-awesome/la-brands-400.woff2") format("woff2"), url("../fonts/line-awesome/la-brands-400.woff") format("woff"), url("../fonts/line-awesome/la-brands-400.ttf") format("truetype"), url("../fonts/line-awesome/la-brands-400.svg#lineawesome") format("svg");
+  src: url("../node_modules/line-awesome/dist/line-awesome/fonts/la-brands-400.eot");
+  src: url("../node_modules/line-awesome/dist/line-awesome/fonts/la-brands-400.eot?#iefix") format("embedded-opentype"), url("../node_modules/line-awesome/dist/line-awesome/fonts/la-brands-400.woff2") format("woff2"), url("../node_modules/line-awesome/dist/line-awesome/fonts/la-brands-400.woff") format("woff"), url("../node_modules/line-awesome/dist/line-awesome/fonts/la-brands-400.ttf") format("truetype"), url("../node_modules/line-awesome/dist/line-awesome/fonts/la-brands-400.svg#lineawesome") format("svg");
 }
 .lab {
   font-family: Line Awesome Brands;
@@ -63,8 +63,8 @@ i.la, i.header-arrow {
   font-style: normal;
   font-weight: 400;
   font-display: auto;
-  src: url("../fonts/line-awesome/la-regular-400.eot");
-  src: url("../fonts/line-awesome/la-regular-400.eot?#iefix") format("embedded-opentype"), url("../fonts/line-awesome/la-regular-400.woff2") format("woff2"), url("../fonts/line-awesome/la-regular-400.woff") format("woff"), url("../fonts/line-awesome/la-regular-400.ttf") format("truetype"), url("../fonts/line-awesome/la-regular-400.svg#lineawesome") format("svg");
+  src: url("../node_modules/line-awesome/dist/line-awesome/fonts/la-regular-400.eot");
+  src: url("../node_modules/line-awesome/dist/line-awesome/fonts/la-regular-400.eot?#iefix") format("embedded-opentype"), url("../node_modules/line-awesome/dist/line-awesome/fonts/la-regular-400.woff2") format("woff2"), url("../node_modules/line-awesome/dist/line-awesome/fonts/la-regular-400.woff") format("woff"), url("../node_modules/line-awesome/dist/line-awesome/fonts/la-regular-400.ttf") format("truetype"), url("../node_modules/line-awesome/dist/line-awesome/fonts/la-regular-400.svg#lineawesome") format("svg");
 }
 .la, .header-arrow {
   font-family: Line Awesome Free;
@@ -76,8 +76,8 @@ i.la, i.header-arrow {
   font-style: normal;
   font-weight: 900;
   font-display: auto;
-  src: url("../fonts/line-awesome/la-solid-900.eot");
-  src: url("../fonts/line-awesome/la-solid-900.eot?#iefix") format("embedded-opentype"), url("../fonts/line-awesome/la-solid-900.woff2") format("woff2"), url("../fonts/line-awesome/la-solid-900.woff") format("woff"), url("../fonts/line-awesome/la-solid-900.ttf") format("truetype"), url("../fonts/line-awesome/la-solid-900.svg#lineawesome") format("svg");
+  src: url("../node_modules/line-awesome/dist/line-awesome/fonts/la-solid-900.eot");
+  src: url("../node_modules/line-awesome/dist/line-awesome/fonts/la-solid-900.eot?#iefix") format("embedded-opentype"), url("../node_modules/line-awesome/dist/line-awesome/fonts/la-solid-900.woff2") format("woff2"), url("../node_modules/line-awesome/dist/line-awesome/fonts/la-solid-900.woff") format("woff"), url("../node_modules/line-awesome/dist/line-awesome/fonts/la-solid-900.ttf") format("truetype"), url("../node_modules/line-awesome/dist/line-awesome/fonts/la-solid-900.svg#lineawesome") format("svg");
 }
 .la, .header-arrow {
   font-family: Line Awesome Free;

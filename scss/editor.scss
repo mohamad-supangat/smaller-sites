@@ -44,7 +44,7 @@ $light: #666565;
 
 $input-height: default;
 
-$la-font-path: "../fonts/line-awesome";
+$la-font-path: "../node_modules/line-awesome/dist/line-awesome/fonts";
 $la-css-prefix-lar: "la";
 $la-css-prefix-las: "la";
 
@@ -55,7 +55,8 @@ i.la {
 $link-decoration: none;
 $font-size-base: 1rem;
 
-@import "line-awesome/line-awesome";
+// @import "line-awesome/line-awesome";
+@import "../node_modules/line-awesome/dist/line-awesome/scss/line-awesome.scss";
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 
