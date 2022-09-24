@@ -1,9 +1,11 @@
 lockfileVersion: 5.4
 
 specifiers:
+  bootstrap: ^5.2.1
   sass: ^1.55.0
 
 dependencies:
+  bootstrap: 5.2.1
   sass: 1.55.0
 
 packages:
@@ -19,6 +21,12 @@ packages:
   /binary-extensions/2.2.0:
     resolution: {integrity: sha512-jDctJ/IVQbZoJykoeHbhXpOlNBqGNcwXJKJog42E5HDPUwQTSdjCHdihjj0DlnheQ7blbT6dHOafNAiS8ooQKA==}
     engines: {node: '>=8'}
+    dev: false
+
+  /bootstrap/5.2.1:
+    resolution: {integrity: sha512-UQi3v2NpVPEi1n35dmRRzBJFlgvWHYwyem6yHhuT6afYF+sziEt46McRbT//kVXZ7b1YUYEVGdXEH74Nx3xzGA==}
+    peerDependencies:
+      '@popperjs/core': ^2.11.6
     dev: false
 
   /braces/3.0.2:

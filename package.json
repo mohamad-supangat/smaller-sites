@@ -11,6 +11,7 @@
     "url": "https://github.com/S-codes14/smaller-sites.git"
   },
   "dependencies": {
+    "bootstrap": "^5.2.1",
     "sass": "^1.55.0"
   },
   "keywords": [
@@ -29,6 +30,7 @@
   "scripts": {
     "start": "electron ./main.js",
     "package": "electron-forge package",
-    "make": "electron-forge make"
+    "make": "electron-forge make",
+    "watch": "sass -w scss/editor.scss css/editor.css"
   }
 }
